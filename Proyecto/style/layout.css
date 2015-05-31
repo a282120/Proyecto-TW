@@ -34,7 +34,6 @@ header {
 #wrapper {
   width: 1200px;
   background-color: rgba(255,255,255, 0.6);
-  basckground-color: rgba(105, 185, 219,0.6);
   margin: 50px auto;
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
@@ -122,9 +121,17 @@ a:active {
   width: 750px;
 }
 
+#main {
+  float: left;
+  width: 750px;
+}
+
 aside {
   float: right;
   width:300px;
+  margin: 50px auto;
+  background-color: rgba(250, 237, 125, 0.5);
+  border-radius: 30px;
 }
 
 aside:hover{
